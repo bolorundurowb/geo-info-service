@@ -1,0 +1,10 @@
+{
+  "name": "geo-name-service",
+  "version": "1.0.0",
+  "description": "An open source web service to handle country, contnent and state/province queries",
+  "main": "src/server.js",
+  "repository": "https://github.com/bolorundurowb/geo-name-service.git",
+  "author": "Bolorunduro Winner-Timothy <ogatimo@gmail.com>",
+  "license": "GPLv3",
+  "private": false
+}
