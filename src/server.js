@@ -21,6 +21,14 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-app.use('/v1/', routes.route(router));
+routes.route(router);
+app.use('/v1/', router);
+
+app.use((req, res, next) => {
+  res.status(501).send({
+    message: 'This API does not support that request.'
+  });
+  next();
+});
 
 app.listen(port, () => Logger.log(`Server started on ${port}`));
