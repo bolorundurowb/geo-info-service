@@ -14,12 +14,15 @@
     "provinces": "^1.11.0"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
     "dotenv": "^7.0.0",
     "eslint": "^5.15.3",
+    "mocha": "^6.0.2",
     "nodemon": "^1.18.10"
   },
   "scripts": {
     "start": "nodemon src/server.js",
-    "start:prod": "node src/server"
+    "start:prod": "node src/server",
+    "test": "mocha tests"
   }
 }
