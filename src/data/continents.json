@@ -1,3 +1,30 @@
 [
-
+  {
+    "short": "AF",
+    "name": "Africa"
+  },
+  {
+    "short": "AN",
+    "name": "Antarctica"
+  },
+  {
+    "short": "AS",
+    "name": "Asia"
+  },
+  {
+    "short": "EU",
+    "name": "Europe"
+  },
+  {
+    "short": "NA",
+    "name": "North America"
+  },
+  {
+    "short": "OC",
+    "name": "Oceania"
+  },
+  {
+    "short": "SA",
+    "name": "South and Central America"
+  }
 ]
