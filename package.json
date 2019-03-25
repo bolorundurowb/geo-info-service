@@ -10,11 +10,16 @@
   "dependencies": {
     "express": "^4.16.4",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.4.19",
     "morgan": "^1.9.1",
     "provinces": "^1.11.0"
   },
   "devDependencies": {
-    "dotenv": "^7.0.0"
+    "dotenv": "^7.0.0",
+    "eslint": "^5.15.3",
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "nodemon src/server.js",
+    "start:prod": "node src/server"
   }
 }
