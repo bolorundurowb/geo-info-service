@@ -9,6 +9,9 @@ class Routes {
     // continents
     router.route('/continents')
       .get(continentsCtrl.getAllContinents);
+
+    router.route('/continents/:code')
+      .get(continentsCtrl.getContinentByCode);
   }
 }
 
