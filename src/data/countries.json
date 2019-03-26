@@ -13,19 +13,21 @@
   },
   {
     "name": "Algeria",
-    "short": "DZ"
+    "short": "DZ",
+    "continent": "AF"
   },
   {
     "name": "American Samoa",
     "short": "AS"
   },
   {
-    "name": "AndorrA",
+    "name": "Andorra",
     "short": "AD"
   },
   {
     "name": "Angola",
-    "short": "AO"
+    "short": "AO",
+    "continent": "AF"
   },
   {
     "name": "Anguilla",
@@ -93,7 +95,8 @@
   },
   {
     "name": "Benin",
-    "short": "BJ"
+    "short": "BJ",
+    "continent": "AF"
   },
   {
     "name": "Bermuda",
@@ -113,7 +116,8 @@
   },
   {
     "name": "Botswana",
-    "short": "BW"
+    "short": "BW",
+    "continent": "AF"
   },
   {
     "name": "Bouvet Island",
@@ -149,7 +153,8 @@
   },
   {
     "name": "Cameroon",
-    "short": "CM"
+    "short": "CM",
+    "continent": "AF"
   },
   {
     "name": "Canada",
@@ -157,7 +162,8 @@
   },
   {
     "name": "Cape Verde",
-    "short": "CV"
+    "short": "CV",
+    "continent": "AF"
   },
   {
     "name": "Cayman Islands",
@@ -165,11 +171,13 @@
   },
   {
     "name": "Central African Republic",
-    "short": "CF"
+    "short": "CF",
+    "continent": "AF"
   },
   {
     "name": "Chad",
-    "short": "TD"
+    "short": "TD",
+    "continent": "AF"
   },
   {
     "name": "Chile",
@@ -197,11 +205,13 @@
   },
   {
     "name": "Congo",
-    "short": "CG"
+    "short": "CG",
+    "continent": "AF"
   },
   {
     "name": "Congo, The Democratic Republic of the",
-    "short": "CD"
+    "short": "CD",
+    "continent": "AF"
   },
   {
     "name": "Cook Islands",
@@ -237,7 +247,8 @@
   },
   {
     "name": "Djibouti",
-    "short": "DJ"
+    "short": "DJ",
+    "continent": "AF"
   },
   {
     "name": "Dominica",
@@ -253,7 +264,8 @@
   },
   {
     "name": "Egypt",
-    "short": "EG"
+    "short": "EG",
+    "continent": "AF"
   },
   {
     "name": "El Salvador",
@@ -261,11 +273,13 @@
   },
   {
     "name": "Equatorial Guinea",
-    "short": "GQ"
+    "short": "GQ",
+    "continent": "AF"
   },
   {
     "name": "Eritrea",
-    "short": "ER"
+    "short": "ER",
+    "continent": "AF"
   },
   {
     "name": "Estonia",
@@ -273,7 +287,8 @@
   },
   {
     "name": "Ethiopia",
-    "short": "ET"
+    "short": "ET",
+    "continent": "AF"
   },
   {
     "name": "Falkland Islands (Malvinas)",
@@ -309,11 +324,13 @@
   },
   {
     "name": "Gabon",
-    "short": "GA"
+    "short": "GA",
+    "continent": "AF"
   },
   {
     "name": "Gambia",
-    "short": "GM"
+    "short": "GM",
+    "continent": "AF"
   },
   {
     "name": "Georgia",
@@ -325,7 +342,8 @@
   },
   {
     "name": "Ghana",
-    "short": "GH"
+    "short": "GH",
+    "continent": "AF"
   },
   {
     "name": "Gibraltar",
@@ -361,11 +379,13 @@
   },
   {
     "name": "Guinea",
-    "short": "GN"
+    "short": "GN",
+    "continent": "AF"
   },
   {
     "name": "Guinea-Bissau",
-    "short": "GW"
+    "short": "GW",
+    "continent": "AF"
   },
   {
     "name": "Guyana",
@@ -453,7 +473,8 @@
   },
   {
     "name": "Kenya",
-    "short": "KE"
+    "short": "KE",
+    "continent": "AF"
   },
   {
     "name": "Kiribati",
@@ -489,15 +510,18 @@
   },
   {
     "name": "Lesotho",
-    "short": "LS"
+    "short": "LS",
+    "continent": "AF"
   },
   {
     "name": "Liberia",
-    "short": "LR"
+    "short": "LR",
+    "continent": "AF"
   },
   {
     "name": "Libyan Arab Jamahiriya",
-    "short": "LY"
+    "short": "LY",
+    "continent": "AF"
   },
   {
     "name": "Liechtenstein",
@@ -521,11 +545,13 @@
   },
   {
     "name": "Madagascar",
-    "short": "MG"
+    "short": "MG",
+    "continent": "AF"
   },
   {
     "name": "Malawi",
-    "short": "MW"
+    "short": "MW",
+    "continent": "AF"
   },
   {
     "name": "Malaysia",
@@ -537,7 +563,8 @@
   },
   {
     "name": "Mali",
-    "short": "ML"
+    "short": "ML",
+    "continent": "AF"
   },
   {
     "name": "Malta",
@@ -553,15 +580,18 @@
   },
   {
     "name": "Mauritania",
-    "short": "MR"
+    "short": "MR",
+    "continent": "AF"
   },
   {
     "name": "Mauritius",
-    "short": "MU"
+    "short": "MU",
+    "continent": "AF"
   },
   {
     "name": "Mayotte",
-    "short": "YT"
+    "short": "YT",
+    "continent": "AF"
   },
   {
     "name": "Mexico",
@@ -593,7 +623,8 @@
   },
   {
     "name": "Mozambique",
-    "short": "MZ"
+    "short": "MZ",
+    "continent": "AF"
   },
   {
     "name": "Myanmar",
@@ -601,7 +632,8 @@
   },
   {
     "name": "Namibia",
-    "short": "NA"
+    "short": "NA",
+    "continent": "AF"
   },
   {
     "name": "Nauru",
@@ -633,11 +665,13 @@
   },
   {
     "name": "Niger",
-    "short": "NE"
+    "short": "NE",
+    "continent": "AF"
   },
   {
     "name": "Nigeria",
-    "short": "NG"
+    "short": "NG",
+    "continent": "AF"
   },
   {
     "name": "Niue",
@@ -713,7 +747,8 @@
   },
   {
     "name": "Reunion",
-    "short": "RE"
+    "short": "RE",
+    "continent": "AF"
   },
   {
     "name": "Romania",
@@ -724,12 +759,14 @@
     "short": "RU"
   },
   {
-    "name": "RWANDA",
-    "short": "RW"
+    "name": "Rwanda",
+    "short": "RW",
+    "continent": "AF"
   },
   {
     "name": "Saint Helena",
-    "short": "SH"
+    "short": "SH",
+    "continent": "AF"
   },
   {
     "name": "Saint Kitts and Nevis",
@@ -757,7 +794,8 @@
   },
   {
     "name": "Sao Tome and Principe",
-    "short": "ST"
+    "short": "ST",
+    "continent": "AF"
   },
   {
     "name": "Saudi Arabia",
@@ -765,7 +803,8 @@
   },
   {
     "name": "Senegal",
-    "short": "SN"
+    "short": "SN",
+    "continent": "AF"
   },
   {
     "name": "Serbia and Montenegro",
@@ -773,11 +812,13 @@
   },
   {
     "name": "Seychelles",
-    "short": "SC"
+    "short": "SC",
+    "continent": "AF"
   },
   {
     "name": "Sierra Leone",
-    "short": "SL"
+    "short": "SL",
+    "continent": "AF"
   },
   {
     "name": "Singapore",
@@ -797,15 +838,27 @@
   },
   {
     "name": "Somalia",
-    "short": "SO"
+    "short": "SO",
+    "continent": "AF"
   },
   {
     "name": "South Africa",
-    "short": "ZA"
+    "short": "ZA",
+    "continent": "AF"
   },
   {
     "name": "South Georgia and the South Sandwich Islands",
     "short": "GS"
+  },
+  {
+    "name": "South Korea",
+    "short": "KR",
+    "continent": "AF"
+  },
+  {
+    "name": "South Sudan",
+    "short": "SS",
+    "continent": "AF"
   },
   {
     "name": "Spain",
@@ -817,7 +870,8 @@
   },
   {
     "name": "Sudan",
-    "short": "SD"
+    "short": "SD",
+    "continent": "AF"
   },
   {
     "name": "Suriname",
@@ -853,7 +907,8 @@
   },
   {
     "name": "Tanzania, United Republic of",
-    "short": "TZ"
+    "short": "TZ",
+    "continent": "AF"
   },
   {
     "name": "Thailand",
@@ -865,7 +920,8 @@
   },
   {
     "name": "Togo",
-    "short": "TG"
+    "short": "TG",
+    "continent": "AF"
   },
   {
     "name": "Tokelau",
@@ -881,7 +937,8 @@
   },
   {
     "name": "Tunisia",
-    "short": "TN"
+    "short": "TN",
+    "continent": "AF"
   },
   {
     "name": "Turkey",
@@ -901,7 +958,8 @@
   },
   {
     "name": "Uganda",
-    "short": "UG"
+    "short": "UG",
+    "continent": "AF"
   },
   {
     "name": "Ukraine",
@@ -965,10 +1023,12 @@
   },
   {
     "name": "Zambia",
-    "short": "ZM"
+    "short": "ZM",
+    "continent": "AF"
   },
   {
     "name": "Zimbabwe",
-    "short": "ZW"
+    "short": "ZW",
+    "continent": "AF"
   }
 ]
