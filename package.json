@@ -5,7 +5,7 @@
   "main": "src/server.js",
   "repository": "https://github.com/bolorundurowb/geo-name-service.git",
   "author": "Bolorunduro Winner-Timothy <ogatimo@gmail.com>",
-  "license": "GPLv3",
+  "license": "GPL-3.0-or-later",
   "private": false,
   "dependencies": {
     "body-parser": "^1.18.3",

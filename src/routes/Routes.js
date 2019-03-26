@@ -3,6 +3,7 @@
  */
 
 const continentsCtrl = require('./../controllers/Continents');
+const countriessCtrl = require('./../controllers/Countries');
 
 class Routes {
   static route(router) {
@@ -12,6 +13,10 @@ class Routes {
 
     router.route('/continents/:code')
       .get(continentsCtrl.getContinentByCode);
+
+    // countries
+    router.route('/countries')
+      .get(countriessCtrl.getAllCountries);
   }
 }
 
