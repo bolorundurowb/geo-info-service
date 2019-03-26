@@ -1,7 +1,8 @@
 [
   {
     "name": "Afghanistan",
-    "short": "AF"
+    "short": "AF",
+    "continent": "AS"
   },
   {
     "name": "Åland Islands",
@@ -47,7 +48,8 @@
   },
   {
     "name": "Armenia",
-    "short": "AM"
+    "short": "AM",
+    "continent": "AS"
   },
   {
     "name": "Aruba",
@@ -63,7 +65,8 @@
   },
   {
     "name": "Azerbaijan",
-    "short": "AZ"
+    "short": "AZ",
+    "continent": "AS"
   },
   {
     "name": "Bahamas",
@@ -71,11 +74,13 @@
   },
   {
     "name": "Bahrain",
-    "short": "BH"
+    "short": "BH",
+    "continent": "AS"
   },
   {
     "name": "Bangladesh",
-    "short": "BD"
+    "short": "BD",
+    "continent": "AS"
   },
   {
     "name": "Barbados",
@@ -104,7 +109,8 @@
   },
   {
     "name": "Bhutan",
-    "short": "BT"
+    "short": "BT",
+    "continent": "AS"
   },
   {
     "name": "Bolivia",
@@ -133,7 +139,8 @@
   },
   {
     "name": "Brunei Darussalam",
-    "short": "BN"
+    "short": "BN",
+    "continent": "AS"
   },
   {
     "name": "Bulgaria",
@@ -149,7 +156,8 @@
   },
   {
     "name": "Cambodia",
-    "short": "KH"
+    "short": "KH",
+    "continent": "AS"
   },
   {
     "name": "Cameroon",
@@ -185,7 +193,8 @@
   },
   {
     "name": "China",
-    "short": "CN"
+    "short": "CN",
+    "continent": "AS"
   },
   {
     "name": "Christmas Island",
@@ -235,7 +244,8 @@
   },
   {
     "name": "Cyprus",
-    "short": "CY"
+    "short": "CY",
+    "continent": "AS"
   },
   {
     "name": "Czech Republic",
@@ -257,6 +267,11 @@
   {
     "name": "Dominican Republic",
     "short": "DO"
+  },
+  {
+    "name": "East Timor",
+    "short": "TL",
+    "continent": "AS"
   },
   {
     "name": "Ecuador",
@@ -334,7 +349,8 @@
   },
   {
     "name": "Georgia",
-    "short": "GE"
+    "short": "GE",
+    "continent": "AS"
   },
   {
     "name": "Germany",
@@ -409,7 +425,8 @@
   },
   {
     "name": "Hong Kong",
-    "short": "HK"
+    "short": "HK",
+    "continent": "AS"
   },
   {
     "name": "Hungary",
@@ -421,19 +438,23 @@
   },
   {
     "name": "India",
-    "short": "IN"
+    "short": "IN",
+    "continent": "AS"
   },
   {
     "name": "Indonesia",
-    "short": "ID"
+    "short": "ID",
+    "continent": "AS"
   },
   {
     "name": "Iran, Islamic Republic Of",
-    "short": "IR"
+    "short": "IR",
+    "continent": "AS"
   },
   {
     "name": "Iraq",
-    "short": "IQ"
+    "short": "IQ",
+    "continent": "AS"
   },
   {
     "name": "Ireland",
@@ -445,7 +466,8 @@
   },
   {
     "name": "Israel",
-    "short": "IL"
+    "short": "IL",
+    "continent": "AS"
   },
   {
     "name": "Italy",
@@ -457,7 +479,8 @@
   },
   {
     "name": "Japan",
-    "short": "JP"
+    "short": "JP",
+    "continent": "AS"
   },
   {
     "name": "Jersey",
@@ -465,7 +488,8 @@
   },
   {
     "name": "Jordan",
-    "short": "JO"
+    "short": "JO",
+    "continent": "AS"
   },
   {
     "name": "Kazakhstan",
@@ -482,23 +506,28 @@
   },
   {
     "name": "Korea, Democratic People\"S Republic of",
-    "short": "KP"
+    "short": "KP",
+    "continent": "AS"
   },
   {
     "name": "Korea, Republic of",
-    "short": "KR"
+    "short": "KR",
+    "continent": "AS"
   },
   {
     "name": "Kuwait",
-    "short": "KW"
+    "short": "KW",
+    "continent": "AS"
   },
   {
     "name": "Kyrgyzstan",
-    "short": "KG"
+    "short": "KG",
+    "continent": "AS"
   },
   {
-    "name": "Lao People\"S Democratic Republic",
-    "short": "LA"
+    "name": "Lao People's Democratic Republic",
+    "short": "LA",
+    "continent": "AS"
   },
   {
     "name": "Latvia",
@@ -506,7 +535,8 @@
   },
   {
     "name": "Lebanon",
-    "short": "LB"
+    "short": "LB",
+    "continent": "AS"
   },
   {
     "name": "Lesotho",
@@ -537,7 +567,8 @@
   },
   {
     "name": "Macao",
-    "short": "MO"
+    "short": "MO",
+    "continent": "AS"
   },
   {
     "name": "Macedonia, The Former Yugoslav Republic of",
@@ -555,11 +586,13 @@
   },
   {
     "name": "Malaysia",
-    "short": "MY"
+    "short": "MY",
+    "continent": "AS"
   },
   {
     "name": "Maldives",
-    "short": "MV"
+    "short": "MV",
+    "continent": "AS"
   },
   {
     "name": "Mali",
@@ -611,7 +644,8 @@
   },
   {
     "name": "Mongolia",
-    "short": "MN"
+    "short": "MN",
+    "continent": "AS"
   },
   {
     "name": "Montserrat",
@@ -628,7 +662,8 @@
   },
   {
     "name": "Myanmar",
-    "short": "MM"
+    "short": "MM",
+    "continent": "AS"
   },
   {
     "name": "Namibia",
@@ -641,7 +676,8 @@
   },
   {
     "name": "Nepal",
-    "short": "NP"
+    "short": "NP",
+    "continent": "AS"
   },
   {
     "name": "Netherlands",
@@ -691,11 +727,13 @@
   },
   {
     "name": "Oman",
-    "short": "OM"
+    "short": "OM",
+    "continent": "AS"
   },
   {
     "name": "Pakistan",
-    "short": "PK"
+    "short": "PK",
+    "continent": "AS"
   },
   {
     "name": "Palau",
@@ -703,7 +741,8 @@
   },
   {
     "name": "Palestinian Territory, Occupied",
-    "short": "PS"
+    "short": "PS",
+    "continent": "AS"
   },
   {
     "name": "Panama",
@@ -723,7 +762,8 @@
   },
   {
     "name": "Philippines",
-    "short": "PH"
+    "short": "PH",
+    "continent": "AS"
   },
   {
     "name": "Pitcairn",
@@ -799,7 +839,8 @@
   },
   {
     "name": "Saudi Arabia",
-    "short": "SA"
+    "short": "SA",
+    "continent": "AS"
   },
   {
     "name": "Senegal",
@@ -822,7 +863,8 @@
   },
   {
     "name": "Singapore",
-    "short": "SG"
+    "short": "SG",
+    "continent": "AS"
   },
   {
     "name": "Slovakia",
@@ -851,12 +893,7 @@
     "short": "GS"
   },
   {
-    "name": "South Korea",
-    "short": "KR",
-    "continent": "AF"
-  },
-  {
-    "name": "South Sudan",
+    "name": "South Sudan, Republic Of",
     "short": "SS",
     "continent": "AF"
   },
@@ -883,7 +920,8 @@
   },
   {
     "name": "Swaziland",
-    "short": "SZ"
+    "short": "SZ",
+    "continent": "AF"
   },
   {
     "name": "Sweden",
@@ -895,15 +933,18 @@
   },
   {
     "name": "Syrian Arab Republic",
-    "short": "SY"
+    "short": "SY",
+    "continent": "AS"
   },
   {
     "name": "Taiwan, Province of China",
-    "short": "TW"
+    "short": "TW",
+    "continent": "AS"
   },
   {
     "name": "Tajikistan",
-    "short": "TJ"
+    "short": "TJ",
+    "continent": "AS"
   },
   {
     "name": "Tanzania, United Republic of",
@@ -912,11 +953,13 @@
   },
   {
     "name": "Thailand",
-    "short": "TH"
+    "short": "TH",
+    "continent": "AS"
   },
   {
     "name": "Timor-Leste",
-    "short": "TL"
+    "short": "TL",
+    "continent": "AS"
   },
   {
     "name": "Togo",
@@ -942,7 +985,8 @@
   },
   {
     "name": "Turkey",
-    "short": "TR"
+    "short": "TR",
+    "continent": "AS"
   },
   {
     "name": "Turkmenistan",
@@ -967,7 +1011,8 @@
   },
   {
     "name": "United Arab Emirates",
-    "short": "AE"
+    "short": "AE",
+    "continent": "AS"
   },
   {
     "name": "United Kingdom",
@@ -987,7 +1032,8 @@
   },
   {
     "name": "Uzbekistan",
-    "short": "UZ"
+    "short": "UZ",
+    "continent": "AS"
   },
   {
     "name": "Vanuatu",
@@ -998,8 +1044,9 @@
     "short": "VE"
   },
   {
-    "name": "Viet Nam",
-    "short": "VN"
+    "name": "Vietnam",
+    "short": "VN",
+    "continent": "AS"
   },
   {
     "name": "Virgin Islands, British",
@@ -1019,7 +1066,8 @@
   },
   {
     "name": "Yemen",
-    "short": "YE"
+    "short": "YE",
+    "continent": "AS"
   },
   {
     "name": "Zambia",
