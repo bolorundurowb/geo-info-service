@@ -6,7 +6,8 @@
   },
   {
     "name": "Åland Islands",
-    "short": "AX"
+    "short": "AX",
+    "continent": "EU"
   },
   {
     "name": "Albania",
@@ -23,7 +24,8 @@
   },
   {
     "name": "Andorra",
-    "short": "AD"
+    "short": "AD",
+    "continent": "EU"
   },
   {
     "name": "Angola",
@@ -61,7 +63,8 @@
   },
   {
     "name": "Austria",
-    "short": "AT"
+    "short": "AT",
+    "continent": "EU"
   },
   {
     "name": "Azerbaijan",
@@ -88,11 +91,13 @@
   },
   {
     "name": "Belarus",
-    "short": "BY"
+    "short": "BY",
+    "continent": "EU"
   },
   {
     "name": "Belgium",
-    "short": "BE"
+    "short": "BE",
+    "continent": "EU"
   },
   {
     "name": "Belize",
@@ -144,7 +149,8 @@
   },
   {
     "name": "Bulgaria",
-    "short": "BG"
+    "short": "BG",
+    "continent": "EU"
   },
   {
     "name": "Burkina Faso",
@@ -236,7 +242,8 @@
   },
   {
     "name": "Croatia",
-    "short": "HR"
+    "short": "HR",
+    "continent": "EU"
   },
   {
     "name": "Cuba",
@@ -249,11 +256,13 @@
   },
   {
     "name": "Czech Republic",
-    "short": "CZ"
+    "short": "CZ",
+    "continent": "EU"
   },
   {
     "name": "Denmark",
-    "short": "DK"
+    "short": "DK",
+    "continent": "EU"
   },
   {
     "name": "Djibouti",
@@ -311,7 +320,8 @@
   },
   {
     "name": "Faroe Islands",
-    "short": "FO"
+    "short": "FO",
+    "continent": "EU"
   },
   {
     "name": "Fiji",
@@ -319,11 +329,13 @@
   },
   {
     "name": "Finland",
-    "short": "FI"
+    "short": "FI",
+    "continent": "EU"
   },
   {
     "name": "France",
-    "short": "FR"
+    "short": "FR",
+    "continent": "EU"
   },
   {
     "name": "French Guiana",
@@ -363,11 +375,13 @@
   },
   {
     "name": "Gibraltar",
-    "short": "GI"
+    "short": "GI",
+    "continent": "EU"
   },
   {
     "name": "Greece",
-    "short": "GR"
+    "short": "GR",
+    "continent": "EU"
   },
   {
     "name": "Greenland",
@@ -417,7 +431,8 @@
   },
   {
     "name": "Holy See (Vatican City State)",
-    "short": "VA"
+    "short": "VA",
+    "continent": "EU"
   },
   {
     "name": "Honduras",
@@ -430,11 +445,13 @@
   },
   {
     "name": "Hungary",
-    "short": "HU"
+    "short": "HU",
+    "continent": "EU"
   },
   {
     "name": "Iceland",
-    "short": "IS"
+    "short": "IS",
+    "continent": "EU"
   },
   {
     "name": "India",
@@ -458,7 +475,8 @@
   },
   {
     "name": "Ireland",
-    "short": "IE"
+    "short": "IE",
+    "continent": "EU"
   },
   {
     "name": "Isle of Man",
@@ -471,7 +489,8 @@
   },
   {
     "name": "Italy",
-    "short": "IT"
+    "short": "IT",
+    "continent": "EU"
   },
   {
     "name": "Jamaica",
@@ -531,7 +550,8 @@
   },
   {
     "name": "Latvia",
-    "short": "LV"
+    "short": "LV",
+    "continent": "EU"
   },
   {
     "name": "Lebanon",
@@ -555,15 +575,18 @@
   },
   {
     "name": "Liechtenstein",
-    "short": "LI"
+    "short": "LI",
+    "continent": "EU"
   },
   {
     "name": "Lithuania",
-    "short": "LT"
+    "short": "LT",
+    "continent": "EU"
   },
   {
     "name": "Luxembourg",
-    "short": "LU"
+    "short": "LU",
+    "continent": "EU"
   },
   {
     "name": "Macao",
@@ -572,7 +595,8 @@
   },
   {
     "name": "Macedonia, The Former Yugoslav Republic of",
-    "short": "MK"
+    "short": "MK",
+    "continent": "EU"
   },
   {
     "name": "Madagascar",
@@ -601,7 +625,8 @@
   },
   {
     "name": "Malta",
-    "short": "MT"
+    "short": "MT",
+    "continent": "EU"
   },
   {
     "name": "Marshall Islands",
@@ -636,11 +661,13 @@
   },
   {
     "name": "Moldova, Republic of",
-    "short": "MD"
+    "short": "MD",
+    "continent": "EU"
   },
   {
     "name": "Monaco",
-    "short": "MC"
+    "short": "MC",
+    "continent": "EU"
   },
   {
     "name": "Mongolia",
@@ -723,7 +750,8 @@
   },
   {
     "name": "Norway",
-    "short": "NO"
+    "short": "NO",
+    "continent": "EU"
   },
   {
     "name": "Oman",
@@ -771,11 +799,13 @@
   },
   {
     "name": "Poland",
-    "short": "PL"
+    "short": "PL",
+    "continent": "EU"
   },
   {
     "name": "Portugal",
-    "short": "PT"
+    "short": "PT",
+    "continent": "EU"
   },
   {
     "name": "Puerto Rico",
@@ -792,11 +822,13 @@
   },
   {
     "name": "Romania",
-    "short": "RO"
+    "short": "RO",
+    "continent": "EU"
   },
   {
     "name": "Russian Federation",
-    "short": "RU"
+    "short": "RU",
+    "continent": "EU"
   },
   {
     "name": "Rwanda",
@@ -830,7 +862,8 @@
   },
   {
     "name": "San Marino",
-    "short": "SM"
+    "short": "SM",
+    "continent": "EU"
   },
   {
     "name": "Sao Tome and Principe",
@@ -868,11 +901,13 @@
   },
   {
     "name": "Slovakia",
-    "short": "SK"
+    "short": "SK",
+    "continent": "EU"
   },
   {
     "name": "Slovenia",
-    "short": "SI"
+    "short": "SI",
+    "continent": "EU"
   },
   {
     "name": "Solomon Islands",
@@ -916,7 +951,8 @@
   },
   {
     "name": "Svalbard and Jan Mayen",
-    "short": "SJ"
+    "short": "SJ",
+    "continent": "EU"
   },
   {
     "name": "Swaziland",
@@ -925,11 +961,13 @@
   },
   {
     "name": "Sweden",
-    "short": "SE"
+    "short": "SE",
+    "continent": "EU"
   },
   {
     "name": "Switzerland",
-    "short": "CH"
+    "short": "CH",
+    "continent": "EU"
   },
   {
     "name": "Syrian Arab Republic",
@@ -1016,7 +1054,8 @@
   },
   {
     "name": "United Kingdom",
-    "short": "GB"
+    "short": "GB",
+    "continent": "EU"
   },
   {
     "name": "United States",
