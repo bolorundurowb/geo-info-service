@@ -11,7 +11,8 @@
   },
   {
     "name": "Albania",
-    "short": "AL"
+    "short": "AL",
+    "continent": "EU"
   },
   {
     "name": "Algeria",
@@ -20,7 +21,8 @@
   },
   {
     "name": "American Samoa",
-    "short": "AS"
+    "short": "AS",
+    "continent": "OC"
   },
   {
     "name": "Andorra",
@@ -59,7 +61,8 @@
   },
   {
     "name": "Australia",
-    "short": "AU"
+    "short": "AU",
+    "continent": "OC"
   },
   {
     "name": "Austria",
@@ -208,7 +211,8 @@
   },
   {
     "name": "Cocos (Keeling) Islands",
-    "short": "CC"
+    "short": "CC",
+    "continent": "OC"
   },
   {
     "name": "Colombia",
@@ -230,7 +234,8 @@
   },
   {
     "name": "Cook Islands",
-    "short": "CK"
+    "short": "CK",
+    "continent": "OC"
   },
   {
     "name": "Costa Rica",
@@ -325,7 +330,8 @@
   },
   {
     "name": "Fiji",
-    "short": "FJ"
+    "short": "FJ",
+    "continent": "OC"
   },
   {
     "name": "Finland",
@@ -343,7 +349,8 @@
   },
   {
     "name": "French Polynesia",
-    "short": "PF"
+    "short": "PF",
+    "continent": "OC"
   },
   {
     "name": "French Southern Territories",
@@ -397,7 +404,8 @@
   },
   {
     "name": "Guam",
-    "short": "GU"
+    "short": "GU",
+    "continent": "OC"
   },
   {
     "name": "Guatemala",
@@ -521,7 +529,8 @@
   },
   {
     "name": "Kiribati",
-    "short": "KI"
+    "short": "KI",
+    "continent": "OC"
   },
   {
     "name": "Korea, Democratic People\"S Republic of",
@@ -630,7 +639,8 @@
   },
   {
     "name": "Marshall Islands",
-    "short": "MH"
+    "short": "MH",
+    "continent": "OC"
   },
   {
     "name": "Martinique",
@@ -699,7 +709,8 @@
   },
   {
     "name": "Nauru",
-    "short": "NR"
+    "short": "NR",
+    "continent": "OC"
   },
   {
     "name": "Nepal",
@@ -720,7 +731,8 @@
   },
   {
     "name": "New Zealand",
-    "short": "NZ"
+    "short": "NZ",
+    "continent": "OC"
   },
   {
     "name": "Nicaragua",
@@ -738,15 +750,18 @@
   },
   {
     "name": "Niue",
-    "short": "NU"
+    "short": "NU",
+    "continent": "OC"
   },
   {
     "name": "Norfolk Island",
-    "short": "NF"
+    "short": "NF",
+    "continent": "OC"
   },
   {
     "name": "Northern Mariana Islands",
-    "short": "MP"
+    "short": "MP",
+    "continent": "OC"
   },
   {
     "name": "Norway",
@@ -765,7 +780,8 @@
   },
   {
     "name": "Palau",
-    "short": "PW"
+    "short": "PW",
+    "continent": "OC"
   },
   {
     "name": "Palestinian Territory, Occupied",
@@ -795,7 +811,8 @@
   },
   {
     "name": "Pitcairn",
-    "short": "PN"
+    "short": "PN",
+    "continent": "OC"
   },
   {
     "name": "Poland",
@@ -858,7 +875,8 @@
   },
   {
     "name": "Samoa",
-    "short": "WS"
+    "short": "WS",
+    "continent": "OC"
   },
   {
     "name": "San Marino",
@@ -911,7 +929,8 @@
   },
   {
     "name": "Solomon Islands",
-    "short": "SB"
+    "short": "SB",
+    "continent": "OC"
   },
   {
     "name": "Somalia",
@@ -1006,11 +1025,13 @@
   },
   {
     "name": "Tokelau",
-    "short": "TK"
+    "short": "TK",
+    "continent": "OC"
   },
   {
     "name": "Tonga",
-    "short": "TO"
+    "short": "TO",
+    "continent": "OC"
   },
   {
     "name": "Trinidad and Tobago",
@@ -1036,7 +1057,8 @@
   },
   {
     "name": "Tuvalu",
-    "short": "TV"
+    "short": "TV",
+    "continent": "OC"
   },
   {
     "name": "Uganda",
@@ -1063,7 +1085,8 @@
   },
   {
     "name": "United States Minor Outlying Islands",
-    "short": "UM"
+    "short": "UM",
+    "continent": "OC"
   },
   {
     "name": "Uruguay",
@@ -1076,7 +1099,8 @@
   },
   {
     "name": "Vanuatu",
-    "short": "VU"
+    "short": "VU",
+    "continent": "OC"
   },
   {
     "name": "Venezuela",
