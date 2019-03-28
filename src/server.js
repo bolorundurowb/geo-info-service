@@ -6,6 +6,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const express = require('express');
 const morgan = require('morgan');
+const path = require('path');
 
 const routes = require('./routes/Routes');
 const Logger = require('./config/Logger');
@@ -20,6 +21,10 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({
   extended: true
 }));
+
+app.use('/api/docs', express.static('apidoc'), (req, res) => {
+  res.status(200).sendFile(path.join(__dirname, '/apidoc/index.html'));
+});
 
 routes.route(router);
 app.use('/v1/', router);

@@ -1,3 +1,7 @@
 {
-  "name": ""
+  "name": "Geo Name Service",
+  "version": "1.0.0",
+  "description": "API documentation for the geo name service",
+  "title": "Geo Name Service",
+  "url": "https://geo-names.herokuapp.com/v1"
 }
