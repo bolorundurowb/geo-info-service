@@ -36,7 +36,8 @@
   },
   {
     "name": "Anguilla",
-    "short": "AI"
+    "short": "AI",
+    "continent": "NA"
   },
   {
     "name": "Antarctica",
@@ -44,7 +45,8 @@
   },
   {
     "name": "Antigua and Barbuda",
-    "short": "AG"
+    "short": "AG",
+    "continent": "NA"
   },
   {
     "name": "Argentina",
@@ -57,7 +59,8 @@
   },
   {
     "name": "Aruba",
-    "short": "AW"
+    "short": "AW",
+    "continent": "NA"
   },
   {
     "name": "Australia",
@@ -76,7 +79,8 @@
   },
   {
     "name": "Bahamas",
-    "short": "BS"
+    "short": "BS",
+    "continent": "NA"
   },
   {
     "name": "Bahrain",
@@ -90,7 +94,8 @@
   },
   {
     "name": "Barbados",
-    "short": "BB"
+    "short": "BB",
+    "continent": "NA"
   },
   {
     "name": "Belarus",
@@ -104,7 +109,8 @@
   },
   {
     "name": "Belize",
-    "short": "BZ"
+    "short": "BZ",
+    "continent": "NA"
   },
   {
     "name": "Benin",
@@ -113,7 +119,8 @@
   },
   {
     "name": "Bermuda",
-    "short": "BM"
+    "short": "BM",
+    "continent": "NA"
   },
   {
     "name": "Bhutan",
@@ -175,7 +182,8 @@
   },
   {
     "name": "Canada",
-    "short": "CA"
+    "short": "CA",
+    "continent": "NA"
   },
   {
     "name": "Cape Verde",
@@ -184,7 +192,8 @@
   },
   {
     "name": "Cayman Islands",
-    "short": "KY"
+    "short": "KY",
+    "continent": "NA"
   },
   {
     "name": "Central African Republic",
@@ -239,7 +248,8 @@
   },
   {
     "name": "Costa Rica",
-    "short": "CR"
+    "short": "CR",
+    "continent": "NA"
   },
   {
     "name": "Cote D\"Ivoire",
@@ -276,16 +286,13 @@
   },
   {
     "name": "Dominica",
-    "short": "DM"
+    "short": "DM",
+    "continent": "NA"
   },
   {
     "name": "Dominican Republic",
-    "short": "DO"
-  },
-  {
-    "name": "East Timor",
-    "short": "TL",
-    "continent": "AS"
+    "short": "DO",
+    "continent": "NA"
   },
   {
     "name": "Ecuador",
@@ -298,7 +305,8 @@
   },
   {
     "name": "El Salvador",
-    "short": "SV"
+    "short": "SV",
+    "continent": "NA"
   },
   {
     "name": "Equatorial Guinea",
@@ -392,15 +400,18 @@
   },
   {
     "name": "Greenland",
-    "short": "GL"
+    "short": "GL",
+    "continent": "NA"
   },
   {
     "name": "Grenada",
-    "short": "GD"
+    "short": "GD",
+    "continent": "NA"
   },
   {
     "name": "Guadeloupe",
-    "short": "GP"
+    "short": "GP",
+    "continent": "NA"
   },
   {
     "name": "Guam",
@@ -409,7 +420,8 @@
   },
   {
     "name": "Guatemala",
-    "short": "GT"
+    "short": "GT",
+    "continent": "NA"
   },
   {
     "name": "Guernsey",
@@ -431,7 +443,8 @@
   },
   {
     "name": "Haiti",
-    "short": "HT"
+    "short": "HT",
+    "continent": "NA"
   },
   {
     "name": "Heard Island and Mcdonald Islands",
@@ -502,7 +515,8 @@
   },
   {
     "name": "Jamaica",
-    "short": "JM"
+    "short": "JM",
+    "continent": "NA"
   },
   {
     "name": "Japan",
@@ -644,7 +658,8 @@
   },
   {
     "name": "Martinique",
-    "short": "MQ"
+    "short": "MQ",
+    "continent": "NA"
   },
   {
     "name": "Mauritania",
@@ -663,7 +678,8 @@
   },
   {
     "name": "Mexico",
-    "short": "MX"
+    "short": "MX",
+    "continent": "NA"
   },
   {
     "name": "Micronesia, Federated States of",
@@ -686,11 +702,13 @@
   },
   {
     "name": "Montserrat",
-    "short": "MS"
+    "short": "MS",
+    "continent": "NA"
   },
   {
     "name": "Morocco",
-    "short": "MA"
+    "short": "MA",
+    "continent": "AF"
   },
   {
     "name": "Mozambique",
@@ -736,7 +754,8 @@
   },
   {
     "name": "Nicaragua",
-    "short": "NI"
+    "short": "NI",
+    "continent": "NA"
   },
   {
     "name": "Niger",
@@ -790,7 +809,8 @@
   },
   {
     "name": "Panama",
-    "short": "PA"
+    "short": "PA",
+    "continent": "NA"
   },
   {
     "name": "Papua New Guinea",
@@ -826,7 +846,8 @@
   },
   {
     "name": "Puerto Rico",
-    "short": "PR"
+    "short": "PR",
+    "continent": "NA"
   },
   {
     "name": "Qatar",
@@ -859,11 +880,13 @@
   },
   {
     "name": "Saint Kitts and Nevis",
-    "short": "KN"
+    "short": "KN",
+    "continent": "NA"
   },
   {
     "name": "Saint Lucia",
-    "short": "LC"
+    "short": "LC",
+    "continent": "NA"
   },
   {
     "name": "Saint Pierre and Miquelon",
@@ -871,7 +894,8 @@
   },
   {
     "name": "Saint Vincent and the Grenadines",
-    "short": "VC"
+    "short": "VC",
+    "continent": "NA"
   },
   {
     "name": "Samoa",
@@ -1035,7 +1059,8 @@
   },
   {
     "name": "Trinidad and Tobago",
-    "short": "TT"
+    "short": "TT",
+    "continent": "NA"
   },
   {
     "name": "Tunisia",
@@ -1049,11 +1074,13 @@
   },
   {
     "name": "Turkmenistan",
-    "short": "TM"
+    "short": "TM",
+    "continent": "AS"
   },
   {
     "name": "Turks and Caicos Islands",
-    "short": "TC"
+    "short": "TC",
+    "continent": "NA"
   },
   {
     "name": "Tuvalu",
@@ -1067,7 +1094,8 @@
   },
   {
     "name": "Ukraine",
-    "short": "UA"
+    "short": "UA",
+    "continent": "EU"
   },
   {
     "name": "United Arab Emirates",
@@ -1081,7 +1109,8 @@
   },
   {
     "name": "United States",
-    "short": "US"
+    "short": "US",
+    "continent": "NA"
   },
   {
     "name": "United States Minor Outlying Islands",
@@ -1113,19 +1142,23 @@
   },
   {
     "name": "Virgin Islands, British",
-    "short": "VG"
+    "short": "VG",
+    "continent": "NA"
   },
   {
     "name": "Virgin Islands, U.S.",
-    "short": "VI"
+    "short": "VI",
+    "continent": "NA"
   },
   {
     "name": "Wallis and Futuna",
-    "short": "WF"
+    "short": "WF",
+    "continent": "OC"
   },
   {
     "name": "Western Sahara",
-    "short": "EH"
+    "short": "EH",
+    "continent": "AF"
   },
   {
     "name": "Yemen",
