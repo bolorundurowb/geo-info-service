@@ -41,7 +41,8 @@
   },
   {
     "name": "Antarctica",
-    "short": "AQ"
+    "short": "AQ",
+    "continent": "AN"
   },
   {
     "name": "Antigua and Barbuda",
@@ -142,7 +143,8 @@
   },
   {
     "name": "Bouvet Island",
-    "short": "BV"
+    "short": "BV",
+    "continent": "AN"
   },
   {
     "name": "Brazil",
@@ -362,7 +364,8 @@
   },
   {
     "name": "French Southern Territories",
-    "short": "TF"
+    "short": "TF",
+    "continent": "AN"
   },
   {
     "name": "Gabon",
@@ -448,7 +451,8 @@
   },
   {
     "name": "Heard Island and Mcdonald Islands",
-    "short": "HM"
+    "short": "HM",
+    "continent": "AN"
   },
   {
     "name": "Holy See (Vatican City State)",
@@ -968,7 +972,8 @@
   },
   {
     "name": "South Georgia and the South Sandwich Islands",
-    "short": "GS"
+    "short": "GS",
+    "continent": "AN"
   },
   {
     "name": "South Sudan, Republic Of",
