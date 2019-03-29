@@ -20,6 +20,12 @@ class Routes {
     // countries
     router.route('/countries')
       .get(countriesCtrl.getAllCountries);
+
+    router.route('/countries/:code')
+      .get(countriesCtrl.getCountryByCode);
+
+    router.route('/countries/:code/provinces')
+      .get(countriesCtrl.getStateOrProvincesByCountry);
   }
 }
 

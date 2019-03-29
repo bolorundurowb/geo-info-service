@@ -75,6 +75,7 @@ class Continents {
       });
     }
   }
+
   static getCountriesByContinent(req, res) {
     let code = req.params.code;
     code = code.toUpperCase();
