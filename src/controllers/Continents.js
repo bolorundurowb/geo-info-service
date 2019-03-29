@@ -16,21 +16,17 @@ class Continents {
    *
    * @apiSuccessExample Success-Response:
    *     HTTP/1.1 200 OK
-   *     {
-   *      "data": [{
+   *     [{
    *       "name": "Asia",
    *       "short": "AS"
    *       }]
-   *     }
    */
   static getAllContinents(req, res) {
-    res.status(200).send({
-      data: continents
-    });
+    res.status(200).send(continents);
   }
 
   /**
-   * @api {get} /continents Request Continent Information
+   * @api {get} /continents/:code Request Continent Information
    * @apiName GetContinent
    * @apiGroup Continents
    *
@@ -40,10 +36,8 @@ class Continents {
    * @apiSuccessExample Success-Response:
    *     HTTP/1.1 200 OK
    *     {
-   *      "data": {
    *       "name": "Asia",
    *       "short": "AS"
-   *       }
    *     }
    *
    * @apiError NotFound The continent with the specified code was not found.
@@ -63,19 +57,39 @@ class Continents {
       });
     }
 
-    const continent = _.find(continents, (continent) => { return continent.short.toLowerCase() === code.toLowerCase(); });
+    const continent = _.find(continents, (continent) => {
+      return continent.short.toLowerCase() === code.toLowerCase();
+    });
 
     if (!continent) {
       res.status(404).send({
         message: `A continent with the code ${code} was not found.`
       });
     } else {
-      res.status(200).send({
-        data: continent
-      });
+      res.status(200).send(continent);
     }
   }
 
+  /**
+   * @api {get} /continents/:code/countries Request Countries in Continent
+   * @apiName GetContinentCountries
+   * @apiGroup Continents
+   *
+   * @apiSuccess {Country[]} countries Array of countries in the continent.
+   *
+   * @apiSuccessExample Success-Response:
+   *     HTTP/1.1 200 OK
+   *     [{
+   *       "name": "Nigeria",
+   *       "short": "NG",
+   *       "continent": "AF",
+   *     },
+   *     {
+   *       "name": "Kenya",
+   *       "short": "KE",
+   *       "continent": "AF"
+   *     }]
+   */
   static getCountriesByContinent(req, res) {
     let code = req.params.code;
     code = code.toUpperCase();
@@ -86,7 +100,9 @@ class Continents {
       });
     }
 
-    const continent = _.find(continents, (continent) => { return continent.short === code; });
+    const continent = _.find(continents, (continent) => {
+      return continent.short === code;
+    });
 
     if (!continent) {
       res.status(404).send({
@@ -99,9 +115,7 @@ class Continents {
         }
       });
 
-      res.status(200).send({
-        data:  matchedCountries
-      });
+      res.status(200).send(matchedCountries);
     }
   }
 }

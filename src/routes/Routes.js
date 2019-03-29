@@ -24,7 +24,7 @@ class Routes {
     router.route('/countries/:code')
       .get(countriesCtrl.getCountryByCode);
 
-    router.route('/countries/:code/provinces')
+    router.route('/countries/:code/states')
       .get(countriesCtrl.getStateOrProvincesByCountry);
   }
 }
