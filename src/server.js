@@ -22,12 +22,16 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 
-app.use('/api/docs', express.static('apidoc'), (req, res) => {
+routes.route(router);
+app.use('/v1/', router);
+
+app.use('/docs', express.static('apidoc'), (req, res) => {
   res.status(200).sendFile(path.join(__dirname, '/apidoc/index.html'));
 });
 
-routes.route(router);
-app.use('/v1/', router);
+app.use('/', express.static('public'), (req, res) => {
+  res.status(200).sendFile(path.join(__dirname, '/public/index.html'));
+});
 
 app.use((req, res, next) => {
   res.status(501).send({
