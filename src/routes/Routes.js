@@ -4,6 +4,7 @@
 
 const continentsCtrl = require('./../controllers/Continents');
 const countriesCtrl = require('./../controllers/Countries');
+const currenciesCtrl = require('./../controllers/Currencies');
 
 class Routes {
   static route(router) {
@@ -26,6 +27,13 @@ class Routes {
 
     router.route('/countries/:code/states')
       .get(countriesCtrl.getStateOrProvincesByCountry);
+
+    // currencies
+    router.route('/currencies')
+      .get(currenciesCtrl.getAllCurrencies);
+
+    router.route('/currencies/:code')
+      .get(currenciesCtrl.getCurrencyByCountry);
   }
 }
 
