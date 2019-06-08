@@ -3,8 +3,10 @@
  */
 
 const _ = require('lodash');
-const countries = require('./../data/countries');
 const statesOrProvinces = require('provinces');
+
+const countries = require('./../data/countries');
+const currencies = require('./../data/currencies');
 
 class Countries {
   /**
@@ -130,6 +132,29 @@ class Countries {
 
       res.status(200).send(matchedStates);
     }
+  }
+
+  static getCurrencyByCountry(req, res) {
+    const code = req.params.code;
+
+    if (code.length !== 2) {
+      return res.status(400).send({
+        message: 'The country code must be two letters only.'
+      });
+    }
+
+    const currency = currencies[code];
+
+    if (!currency) {
+      res.status(404).send({
+        message: `A currency for the country with code ${code} was not found.`
+      });
+    }
+
+    res.status(200).send({
+      country: code,
+      currency: currency
+    });
   }
 }
 

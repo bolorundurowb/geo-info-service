@@ -28,12 +28,12 @@ class Routes {
     router.route('/countries/:code/states')
       .get(countriesCtrl.getStateOrProvincesByCountry);
 
+    router.route('/countries/:code/currency')
+      .get(countriesCtrl.getCurrencyByCountry);
+
     // currencies
     router.route('/currencies')
       .get(currenciesCtrl.getAllCurrencies);
-
-    router.route('/currencies/:code')
-      .get(currenciesCtrl.getCurrencyByCountry);
   }
 }
 
