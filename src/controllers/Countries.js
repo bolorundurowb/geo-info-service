@@ -134,6 +134,20 @@ class Countries {
     }
   }
 
+  /**
+   * @api {get} /countries/:code/currency Request Currency for Country
+   * @apiName GetCountryCurrency
+   * @apiGroup Countries
+   *
+   * @apiSuccess {object} currency An object describing the currency of the country.
+   *
+   * @apiSuccessExample Success-Response:
+   *     HTTP/1.1 200 OK
+   *     {
+   *       "country": "NG",
+   *       "currency": "NGN"
+   *     }
+   */
   static getCurrencyByCountry(req, res) {
     const code = req.params.code;
 
