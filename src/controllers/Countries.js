@@ -162,7 +162,7 @@ class Countries {
 
     if (!currency) {
       res.status(404).send({
-        message: `A currency for the country with code ${code} was not found.`
+        message: `The currency for the country with code ${code} was not found.`
       });
     }
 
@@ -197,18 +197,22 @@ class Countries {
       });
     }
 
-    const currency = currencies[code];
+    const dialingCode = _.find(dialingCodes, (dialingCode) => {
+      return dialingCode.code === code;
+    });
 
-    if (!currency) {
+    if (!dialingCode) {
       res.status(404).send({
-        message: `A currency for the country with code ${code} was not found.`
+        message: `The dialing code for a country with the code ${code} was not found.`
+      });
+    } else {
+      res.status(200).send( {
+        name: dialingCode.name,
+        short: dialingCode.code,
+        flag: dialingCode.flag,
+        dialCode: dialingCode.dial_code
       });
     }
-
-    res.status(200).send({
-      country: code,
-      currency: currency
-    });
   }
 }
 

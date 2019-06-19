@@ -38,6 +38,7 @@ class DialingCodes {
       return {
         name: dialingCode.name,
         short: dialingCode.code,
+        flag: dialingCode.flag,
         dialCode: dialingCode.dial_code
       };
     });
