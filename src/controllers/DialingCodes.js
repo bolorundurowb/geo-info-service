@@ -17,16 +17,19 @@ class DialingCodes {
    *     [{
    *       "name": "Nigeria",
    *       "short": "NG",
+   *       "flag": "🇳🇬",
    *       "dialCode": "+234",
    *     },
    *     {
    *       "name": "Kenya",
    *       "short": "KE",
+   *       "flag": "🇰🇪",
    *       "dialCode": "+254"
    *     },
    *     {
    *       "name": "United States of America",
    *       "short": "US",
+   *       "flag": "🇺🇸",
    *       "dialCode": "+1"
    *     }]
    */
