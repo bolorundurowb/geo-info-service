@@ -33,7 +33,7 @@ class DialingCodes {
    *       "dialCode": "+1"
    *     }]
    */
-  static getAllCurrencies(req, res) {
+  static getAllDialingCodes(req, res) {
     const response = dialingCodes.map((dialingCode) => {
       return {
         name: dialingCode.name,

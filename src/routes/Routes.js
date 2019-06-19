@@ -5,6 +5,7 @@
 const continentsCtrl = require('./../controllers/Continents');
 const countriesCtrl = require('./../controllers/Countries');
 const currenciesCtrl = require('./../controllers/Currencies');
+const dialingCodesCtrl = require('./../controllers/DialingCodes');
 
 class Routes {
   static route(router) {
@@ -31,9 +32,16 @@ class Routes {
     router.route('/countries/:code/currency')
       .get(countriesCtrl.getCurrencyByCountry);
 
+    router.route('/countries/:code/dialing-code')
+      .get(countriesCtrl.getDialingCodeByCountry);
+
     // currencies
     router.route('/currencies')
       .get(currenciesCtrl.getAllCurrencies);
+
+    // dialing-codes
+    router.route('/dialing-codes')
+      .get(dialingCodesCtrl.getAllDialingCodes);
   }
 }
 

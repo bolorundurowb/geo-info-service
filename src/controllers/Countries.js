@@ -7,6 +7,7 @@ const statesOrProvinces = require('provinces');
 
 const countries = require('./../data/countries');
 const currencies = require('./../data/currencies');
+const dialingCodes = require('./../data/dialingCodes');
 
 class Countries {
   /**
@@ -149,6 +150,45 @@ class Countries {
    *     }
    */
   static getCurrencyByCountry(req, res) {
+    const code = req.params.code;
+
+    if (code.length !== 2) {
+      return res.status(400).send({
+        message: 'The country code must be two letters only.'
+      });
+    }
+
+    const currency = currencies[code];
+
+    if (!currency) {
+      res.status(404).send({
+        message: `A currency for the country with code ${code} was not found.`
+      });
+    }
+
+    res.status(200).send({
+      country: code,
+      currency: currency
+    });
+  }
+
+  /**
+   * @api {get} /countries/:code/dialing-code Request Dialing Code for Country
+   * @apiName GetCountryDialingCode
+   * @apiGroup Countries
+   *
+   * @apiSuccess {object} currency An object describing the dialing code of the country.
+   *
+   * @apiSuccessExample Success-Response:
+   *     HTTP/1.1 200 OK
+   *     {
+   *       "name": "Kenya",
+   *       "short": "KE",
+   *       "flag": "🇰🇪",
+   *       "dialCode": "+254"
+   *     }
+   */
+  static getDialingCodeByCountry(req, res) {
     const code = req.params.code;
 
     if (code.length !== 2) {
