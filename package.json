@@ -1,9 +1,9 @@
 {
-  "name": "geo-name-service",
-  "version": "1.0.0",
-  "description": "An open source web service to handle country, continent and state/province queries",
+  "name": "geo-info-service",
+  "version": "1.0.5",
+  "description": "An open source web service to handle nformation about continents, countries, state/province info, international dialing codes and currencies",
   "main": "src/server.js",
-  "repository": "https://github.com/bolorundurowb/geo-name-service.git",
+  "repository": "https://github.com/bolorundurowb/geo-info-service.git",
   "author": "Bolorunduro Winner-Timothy <ogatimo@gmail.com>",
   "license": "GPL-3.0-or-later",
   "private": false,
