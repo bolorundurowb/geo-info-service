@@ -123,7 +123,7 @@ class Countries {
         message: `A country with the code ${code} was not found.`
       });
     } else {
-      const matchedStates = country.stats.map((state) => {
+      const matchedStates = country.states.map((state) => {
         return {
           name: state,
           country: code
