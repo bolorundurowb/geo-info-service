@@ -15,7 +15,6 @@
     "jsonwebtoken": "^8.5.1",
     "lodash": "^4.17.11",
     "morgan": "^1.9.1",
-    "provinces": "^1.11.0",
     "winston": "^3.2.1"
   },
   "devDependencies": {
