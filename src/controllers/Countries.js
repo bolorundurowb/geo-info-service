@@ -3,11 +3,11 @@
  */
 
 const _ = require('lodash');
-const statesOrProvinces = require('provinces');
 
 const countries = require('./../data/countries');
 const currencies = require('./../data/currencies');
 const dialingCodes = require('./../data/dialingCodes');
+const countryStates = require('./../data/states');
 
 class Countries {
   /**
@@ -97,12 +97,10 @@ class Countries {
    *     HTTP/1.1 200 OK
    *     [{
    *       "name": "Abia",
-   *       "short": "AB",
    *       "country": "NG",
    *     },
    *     {
    *       "name": "Abuja",
-   *       "short": "FC",
    *       "country": "NG"
    *     }]
    */
@@ -116,7 +114,7 @@ class Countries {
       });
     }
 
-    const country = _.find(countries, (country) => {
+    const country = _.find(countryStates, (country) => {
       return country.short === code;
     });
 
@@ -125,10 +123,11 @@ class Countries {
         message: `A country with the code ${code} was not found.`
       });
     } else {
-      const matchedStates = statesOrProvinces.filter((state) => {
-        if (state.country === code) {
-          return state;
-        }
+      const matchedStates = country.stats.map((state) => {
+        return {
+          name: state,
+          country: code
+        };
       });
 
       res.status(200).send(matchedStates);
@@ -206,7 +205,7 @@ class Countries {
         message: `The dialing code for a country with the code ${code} was not found.`
       });
     } else {
-      res.status(200).send( {
+      res.status(200).send({
         name: dialingCode.name,
         short: dialingCode.code,
         flag: dialingCode.flag,
