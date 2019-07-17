@@ -5,6 +5,7 @@
 const _ = require('lodash');
 const continents = require('./../data/continents');
 const countries = require('./../data/countries');
+const DateUtil = require('./../config/DateUtil');
 
 class Continents {
   /**
@@ -22,6 +23,8 @@ class Continents {
    *       }]
    */
   static getAllContinents(req, res) {
+    res.set('Cache-Control', 'public');
+    res.set('Expires', DateUtil.getExpiryDate());
     res.status(200).send(continents);
   }
 
@@ -66,6 +69,8 @@ class Continents {
         message: `A continent with the code ${code} was not found.`
       });
     } else {
+      res.set('Cache-Control', 'public');
+      res.set('Expires', DateUtil.getExpiryDate());
       res.status(200).send(continent);
     }
   }
@@ -115,6 +120,8 @@ class Continents {
         }
       });
 
+      res.set('Cache-Control', 'public');
+      res.set('Expires', DateUtil.getExpiryDate());
       res.status(200).send(matchedCountries);
     }
   }
