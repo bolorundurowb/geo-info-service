@@ -3,6 +3,7 @@
  */
 
 const currencies = require('./../data/currencies');
+const DateUtil = require('../config/DateUtil');
 
 class Currencies {
   /**

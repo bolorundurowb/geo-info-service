@@ -8,6 +8,7 @@ const countries = require('./../data/countries');
 const currencies = require('./../data/currencies');
 const dialingCodes = require('./../data/dialingCodes');
 const countryStates = require('./../data/states');
+const DateUtil = require('../config/DateUtil');
 
 class Countries {
   /**
@@ -36,6 +37,8 @@ class Countries {
    *     }]
    */
   static getAllCountries(req, res) {
+    res.set('Cache-Control', 'public');
+    res.set('Expires', DateUtil.getExpiryDate());
     res.status(200).send(countries);
   }
 
@@ -82,6 +85,8 @@ class Countries {
         message: `A country with the code ${code} was not found.`
       });
     } else {
+      res.set('Cache-Control', 'public');
+      res.set('Expires', DateUtil.getExpiryDate());
       res.status(200).send(country);
     }
   }
@@ -130,6 +135,8 @@ class Countries {
         };
       });
 
+      res.set('Cache-Control', 'public');
+      res.set('Expires', DateUtil.getExpiryDate());
       res.status(200).send(matchedStates);
     }
   }
@@ -165,6 +172,8 @@ class Countries {
       });
     }
 
+    res.set('Cache-Control', 'public');
+    res.set('Expires', DateUtil.getExpiryDate());
     res.status(200).send({
       country: code,
       currency: currency
@@ -205,6 +214,8 @@ class Countries {
         message: `The dialing code for a country with the code ${code} was not found.`
       });
     } else {
+      res.set('Cache-Control', 'public');
+      res.set('Expires', DateUtil.getExpiryDate());
       res.status(200).send({
         name: dialingCode.name,
         short: dialingCode.code,
