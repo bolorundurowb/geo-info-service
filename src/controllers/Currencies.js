@@ -39,6 +39,9 @@ class Currencies {
         });
       }
     }
+
+    res.set('Cache-Control', 'public');
+    res.set('Expires', DateUtil.getExpiryDate());
     res.status(200).send(response);
   }
 }
