@@ -10,7 +10,7 @@ const DateUtil = require('./../config/DateUtil');
 class Continents {
   /**
    * @api {get} /continents Request All Continent Information
-   * @apiName GetContinents
+   * @apiName getAllContinents
    * @apiGroup Continents
    *
    * @apiSuccess {Continents[]} continents Array of the continents.
@@ -30,8 +30,10 @@ class Continents {
 
   /**
    * @api {get} /continents/:code Request Continent Information
-   * @apiName GetContinent
+   * @apiName getContinentByCode
    * @apiGroup Continents
+   *
+   * @apiParam {String} code
    *
    * @apiSuccess {String} name Name of the continent.
    * @apiSuccess {String} short  Two letter unique short code used to refer to the continent.
@@ -79,6 +81,8 @@ class Continents {
    * @api {get} /continents/:code/countries Request Countries in Continent
    * @apiName GetContinentCountries
    * @apiGroup Continents
+   *
+   * @apiParam {String} code
    *
    * @apiSuccess {Country[]} countries Array of countries in the continent.
    *

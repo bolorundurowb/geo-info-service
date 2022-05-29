@@ -47,6 +47,8 @@ class Countries {
    * @apiName GetCountry
    * @apiGroup Countries
    *
+   * @apiParam {String} code
+   *
    * @apiSuccess {String} name Name of the country.
    * @apiSuccess {String} short  Two letter unique short code used to refer to the country.
    * @apiSuccess {String} continent  Two letter unique short code used to refer to the continent the country is located in.
@@ -95,6 +97,8 @@ class Countries {
    * @api {get} /countries/:code/states Request States or Provinces in Country
    * @apiName GetCountryCountries
    * @apiGroup Countries
+   *
+   * @apiParam {String} code
    *
    * @apiSuccess {States[]} statesOrProvinces Array of states or provinces in the country.
    *
@@ -146,6 +150,8 @@ class Countries {
    * @apiName GetCountryCurrency
    * @apiGroup Countries
    *
+   * @apiParam {String} code
+   *
    * @apiSuccess {object} currency An object describing the currency of the country.
    *
    * @apiSuccessExample Success-Response:
@@ -184,6 +190,8 @@ class Countries {
    * @api {get} /countries/:code/dialing-code Request Dialing Code for Country
    * @apiName GetCountryDialingCode
    * @apiGroup Countries
+   *
+   * @apiParam {String} code
    *
    * @apiSuccess {object} currency An object describing the dialing code of the country.
    *
