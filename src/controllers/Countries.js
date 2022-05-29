@@ -13,7 +13,7 @@ const DateUtil = require('../config/DateUtil');
 class Countries {
   /**
    * @api {get} /countries Request All Country Information
-   * @apiName GetCountries
+   * @apiName getAllCountries
    * @apiGroup Countries
    *
    * @apiSuccess {Countries[]} countries Array of the countries.
@@ -44,7 +44,7 @@ class Countries {
 
   /**
    * @api {get} /countries/:code Request Country Information
-   * @apiName GetCountry
+   * @apiName getCountryByCode
    * @apiGroup Countries
    *
    * @apiParam {String} code
@@ -95,7 +95,7 @@ class Countries {
 
   /**
    * @api {get} /countries/:code/states Request States or Provinces in Country
-   * @apiName GetCountryCountries
+   * @apiName getStateOrProvincesByCountry
    * @apiGroup Countries
    *
    * @apiParam {String} code
@@ -147,7 +147,7 @@ class Countries {
 
   /**
    * @api {get} /countries/:code/currency Request Currency for Country
-   * @apiName GetCountryCurrency
+   * @apiName getCurrencyByCountry
    * @apiGroup Countries
    *
    * @apiParam {String} code
@@ -188,7 +188,7 @@ class Countries {
 
   /**
    * @api {get} /countries/:code/dialing-code Request Dialing Code for Country
-   * @apiName GetCountryDialingCode
+   * @apiName getDialingCodeByCountry
    * @apiGroup Countries
    *
    * @apiParam {String} code

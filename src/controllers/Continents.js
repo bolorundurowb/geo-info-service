@@ -79,7 +79,7 @@ class Continents {
 
   /**
    * @api {get} /continents/:code/countries Request Countries in Continent
-   * @apiName GetContinentCountries
+   * @apiName getCountriesByContinent
    * @apiGroup Continents
    *
    * @apiParam {String} code

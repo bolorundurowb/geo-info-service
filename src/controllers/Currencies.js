@@ -8,7 +8,7 @@ const DateUtil = require('../config/DateUtil');
 class Currencies {
   /**
    * @api {get} /currencies Request All Currencies
-   * @apiName GetCurrencies
+   * @apiName getAllCurrencies
    * @apiGroup Currencies
    *
    * @apiSuccess {Countries[]} currencies Array of the currencies.
@@ -32,12 +32,10 @@ class Currencies {
     const response = [];
 
     for (let key in currencies) {
-      if (currencies.hasOwnProperty(key)) {
-        response.push({
-          country: key,
-          currency: currencies[key]
-        });
-      }
+      response.push({
+        country: key,
+        currency: currencies[key]
+      });
     }
 
     res.set('Cache-Control', 'public');

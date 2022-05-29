@@ -8,7 +8,7 @@ const DateUtil = require('../config/DateUtil');
 class DialingCodes {
   /**
    * @api {get} /dialing-codes Request All Dialing Codes
-   * @apiName GetDialingCodes
+   * @apiName getAllDialingCodes
    * @apiGroup DialingCodes
    *
    * @apiSuccess {DialingCodes[]} currencies Array of the dialing codes.
